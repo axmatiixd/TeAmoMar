@@ -3,14 +3,15 @@ var audio = document.querySelector("audio");
 var lyrics = document.querySelector("#lyrics");
 
 // Array de objetos que contiene cada línea y su tiempo de aparición en segundos
-var lyricsData = [ { text: "TE AMO MUCHO ISAAA ATT... TU ESPOSITO ", time: 3 },
-                  { text: "Porque como vos, ninguna, sos unica y inalcanzable", time: 10 },
-                  { text: "soy muy feliz teniendote en mi vida, nuestra relacion va madurando", time: 19 },
-                  { text: "y eso es porque amobs le metimos ganas a esto, nunca sientas que no sos", time: 22 },
-                  { text: "importante para mi, te piso cada dia y cada hora, te amo cada dia mas", time: 29 },
-                  { text: " gracias por este lindo amor, es lo mas lindo que vivi nena", time: 35 },
-                  { text: "  quiero, deseo y sueño todo con vos, te amo inmensamente mi reina mia", time: 42 },
-                  { text: "  Te amo ATT : Matias Alexis Martinez Montiel", time: 300 },
+var lyricsData = [ 
+  { text: "TE AMO MUCHO ISAAA ATT... TU ESPOSITO ", time: 3 },
+  { text: "Porque como vos, ninguna, sos unica y inalcanzable", time: 10 },
+  { text: "soy muy feliz teniendote en mi vida, nuestra relacion va madurando", time: 19 },
+  { text: "y eso es porque amobs le metimos ganas a esto, nunca sientas que no sos", time: 22 },
+  { text: "importante para mi, te piso cada dia y cada hora, te amo cada dia mas", time: 29 },
+  { text: " gracias por este lindo amor, es lo mas lindo que vivi nena", time: 35 },
+   { text: "quiero, deseo y sueño todo con vos, te amo inmensamente mi reina mia", time: 42 },
+   { text: "Te amo ATT : Matias Alexis Martinez Montiel", time: 300 },
 ];
 
 
